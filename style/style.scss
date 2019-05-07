@@ -1,0 +1,48 @@
+@import "variables.scss" ;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menu-nav{
+    background-color: $cinza-claro;
+    img{
+        padding: 14px;
+        width: 100px;
+        height: 30px;
+
+    }
+    @include display(center, normal, normal)
+}
+.conteiner{
+    background-image: url("/frontend-intern-challenge/Assets/background-home.jpg");
+    h2{
+        font-family: $roboto;
+        color: white;
+    }
+    p{
+        font-family: $roboto-slab;
+        color: white;
+    }
+
+    @include display(center, center, column)
+
+}
+.conteiner-numbers{
+    .title{
+        @include display(center, center, normal);
+    }
+}
+
+footer{
+    .link-footer{
+        @include display(normal, center, normal)
+    }
+    
+    .ordem{
+    @include display(flex-end, normal, normal);
+    img{padding: 10px;}
+    }
+}

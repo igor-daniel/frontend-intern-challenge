@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-nav {
+  background-color: #EEE;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  flex-direction: normal;
+}
+.menu-nav img {
+  padding: 14px;
+  width: 100px;
+  height: 30px;
+}
+
+.conteiner {
+  background-image: url("/frontend-intern-challenge/Assets/background-home.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.conteiner h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.conteiner p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.conteiner-numbers .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: normal;
+}
+
+footer .link-footer {
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  flex-direction: normal;
+}
+footer .ordem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: normal;
+  flex-direction: normal;
+}
+footer .ordem img {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

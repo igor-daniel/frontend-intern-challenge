@@ -1,0 +1,19 @@
+//cores
+$vermelho: #aa1423;
+$cinza-escuro: #777;
+$cinza-claro: #EEE;
+
+
+@mixin display($justfy-direction, $align, $direction){
+    display: flex;
+    justify-content: $justfy-direction;
+    align-items:  $align;
+    flex-direction: $direction;
+}
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+$roboto: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+$roboto-slab: 'Roboto Slab', serif;
